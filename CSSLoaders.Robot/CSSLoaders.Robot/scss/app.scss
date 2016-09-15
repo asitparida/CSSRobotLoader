@@ -203,7 +203,7 @@ body {
         width: 100%;
         top: -275px;
         left: 0;
-        background:#f8f8f8;
+        background: #f8f8f8;
 
         .accent-picker {
             height: 275px;
@@ -363,27 +363,30 @@ body {
 
     .robot-holder {
         width: 100%;
-        height:calc(100% - 102px);
+        height: calc(100vh - 102px);
     }
 
     .robot {
         padding: 30px 0;
         display: block;
         margin: 0 auto;
-        height:100%;
-        width:60vw;
+        height: 100%;
+        width: 60vw;
+        max-width:250px;
+        max-height:650px;
 
         &-loader {
             display: block;
             margin: 30px auto;
-            width:100%;
-            max-width:250px;
+            width: 100%;
+            max-width: 30vh;
             position: relative;
-            height:100%;
+            height: 100%;
 
             &-bulb {
                 position: relative;
-                left: 1vh;
+                left: 5%;
+                width: 100%;
 
                 &-top {
                     position: relative;
@@ -443,7 +446,7 @@ body {
             }
 
             &-head {
-                height: 15vh;
+                height: 25%;
                 width: 100%;
                 display: block;
                 margin: 0 auto;
@@ -525,13 +528,13 @@ body {
             }
 
             &-neck {
-                height: 4vh;
+                height: 8%;
                 margin: 0 auto;
                 display: block;
-                width: 5vh;
+                width: 20%;
                 position: relative;
                 top: -5px;
-                left: 1vh;
+                left: 5%;
 
                 &-ring {
                     width: 100%;
@@ -552,7 +555,7 @@ body {
 
             &-body {
                 background: #000;
-                height: 18vh;
+                height: 35%;
                 width: 100%;
                 margin: 0 auto;
                 display: block;
@@ -709,13 +712,12 @@ body {
                             position: absolute;
                             margin: 0;
                             vertical-align: middle;
-                            top: 0.5vh;
-                            margin-top: 50%;
+                            bottom: 15%;                            
 
                             &:nth-child(3) {
                                 width: 4vh;
                                 height: 4vh;
-                                top: 0;
+                                bottom: 15%; 
                                 left: 50%;
                                 margin-left: -2vh;
                                 border-color: #25b678;
@@ -736,13 +738,13 @@ body {
             }
 
             &-legs {
-                height: 10vh;
+                height: 15%;
                 width: 33%;
                 display: block;
                 margin: 0 auto;
                 position: relative;
                 top: -10px;
-                left: 1vh;
+                left: 5%;
                 z-index: 2;
 
                 &-left,
@@ -810,12 +812,12 @@ body {
 
             &-mat {
                 background: #000;
-                height: 1.5vh;
+                height: 2%;
                 width: 100%;
                 border-radius: 33%;
                 position: relative;
                 top: -12px;
-                left: 1vh;
+                left: 5%;
                 z-index: 1;
             }
         }
