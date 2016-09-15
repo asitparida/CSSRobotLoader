@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html ng-csp ng-app="Progress.UI">
+<head>
+    <title>Robot Loader</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" />   
+    <link href="dist/css/app.min.css" rel="stylesheet" />
+    <script src="app.js"></script>
+</head>
+<body class="{{main.activeColorMode.colorId}}" ng-controller="Progress.UI.MainController as main" ng-cloak ng-class="{'colorPickerActive': main.showColorPicker}">
+    <div class="color-switcher">
+        <div class="theme-switcher accent-picker">
+            <label class="settings-label">Pick Accent</label>
+            <div class="accent-picker-close" ng-click="main.closeColorPicker()"><span class="glyphicon glyphicon-remove"></span></div>
+            <div class="settings-color-picker" ng-show="main.settingsPaneColorsInitalized">
+                <div class="color-originator"></div>
+                <div class="color-plate" ng-repeat="color in main.shownColorModes" ng-style="{
+                'background-color':color.code,
+                'z-index': main.shownColorModes.length - $index,
+                'transition':color.transition}" ng-attr-id="color_{{color.colorId}}"
+                     ng-click="main.choseColor(color)"></div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-profile-data">
+            <div class="header-profile-mast">
+                <div class="header-profile-mast-name"><strong>Robot</strong>Loader</div>
+            </div>
+            <div class="header-profile-links-pages-list-toggle pull-right" title="Change app accent" ng-click="main.openColorPicker()"></div>
+        </div>
+    </div>
+    <div class="robot-holder">
+        <div class="robot">
+            <div class="robot-loader">
+                <div class="robot-loader-bulb">
+                    <div class="robot-loader-bulb-top">
+                        <div class="robot-loader-bulb-top-filament"></div>
+                        <div class="robot-loader-bulb-top-filament"></div>
+                    </div>
+                    <div class="robot-loader-bulb-bottom"></div>
+                    <div class="robot-loader-bulb-base"></div>
+                </div>
+                <div class="robot-loader-head">
+                    <div class="robot-loader-head-box">
+                        <div class="robot-loader-head-box-inner">
+                            <div class="robot-loader-head-box-inner-eye">
+                                <div class="robot-loader-head-box-inner-eye0 "></div>
+                                <div class="robot-loader-head-box-inner-eye1 "></div>
+                                <div class="robot-loader-head-box-inner-eye2"></div>
+                                <div class="robot-loader-head-box-inner-eye3"></div>
+                                <div class="robot-loader-head-box-inner-eye4"></div>
+                                <div class="robot-loader-head-box-inner-eye5"></div>
+                                <div class="robot-loader-head-box-inner-eye6"></div>
+                                <div class="robot-loader-head-box-inner-eye7"></div>
+                                <div class="robot-loader-head-box-inner-eye8"></div>
+                                <div class="robot-loader-head-box-inner-eye9"></div>
+                                <div class="robot-loader-head-box-inner-eye10"></div>
+                                <div class="robot-loader-head-box-inner-eye11"></div>
+                                <div class="robot-loader-head-box-inner-eye12"></div>
+                            </div>
+                            <div class="robot-loader-head-box-inner-eye">
+                                <div class="robot-loader-head-box-inner-eye0 "></div>
+                                <div class="robot-loader-head-box-inner-eye1  "></div>
+                                <div class="robot-loader-head-box-inner-eye2  "></div>
+                                <div class="robot-loader-head-box-inner-eye3  "></div>
+                                <div class="robot-loader-head-box-inner-eye4  "></div>
+                                <div class="robot-loader-head-box-inner-eye5  "></div>
+                                <div class="robot-loader-head-box-inner-eye6  "></div>
+                                <div class="robot-loader-head-box-inner-eye7  "></div>
+                                <div class="robot-loader-head-box-inner-eye8  "></div>
+                                <div class="robot-loader-head-box-inner-eye9  "></div>
+                                <div class="robot-loader-head-box-inner-eye10 "></div>
+                                <div class="robot-loader-head-box-inner-eye11 "></div>
+                                <div class="robot-loader-head-box-inner-eye12 "></div>
+                            </div>
+                            <div class="robot-loader-head-box-inner-mouth"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="robot-loader-neck">
+                    <div class="robot-loader-neck-ring">
+                        <div class="robot-loader-neck-ring-inner"></div>
+                    </div>
+                    <div class="robot-loader-neck-ring">
+                        <div class="robot-loader-neck-ring-inner"></div>
+                    </div>
+                    <div class="robot-loader-neck-ring">
+                        <div class="robot-loader-neck-ring-inner"></div>
+                    </div>
+                </div>
+                <div class="robot-loader-body">
+                    <div class="robot-loader-body-arm-left">
+                        <div class="robot-loader-body-arm-left-shoulder"></div>
+                        <div class="robot-loader-body-arm-fore"></div>
+                        <div class="robot-loader-body-arm-fore-mid"></div>
+                        <div class="robot-loader-body-arm-fore-end"></div>
+                    </div>
+                    <div class="robot-loader-body-arm-right">
+                        <div class="robot-loader-body-arm-right-shoulder"></div>
+                        <div class="robot-loader-body-arm-fore"></div>
+                        <div class="robot-loader-body-arm-fore-mid"></div>
+                        <div class="robot-loader-body-arm-fore-end"></div>
+                    </div>
+                    <div class="robot-loader-body-midriff">
+                        <div class="robot-loader-body-midriff-box">
+                            <div class="robot-loader-body-midriff-box-slider"></div>
+                            <div class="robot-loader-body-midriff-box-slider-rotator"></div>
+                        </div>
+                        <div class="robot-loader-body-midriff-box-circle"></div>
+                        <div class="robot-loader-body-midriff-box-circle"></div>
+                        <div class="robot-loader-body-midriff-box-circle"></div>
+                    </div>
+                </div>
+                <div class="robot-loader-legs">
+                    <div class="robot-loader-legs-left">
+                        <div class="robot-loader-legs-knee"></div>
+                        <div class="robot-loader-legs-hoof"></div>
+                    </div>
+                    <div class="robot-loader-legs-right">
+                        <div class="robot-loader-legs-knee"></div>
+                        <div class="robot-loader-legs-hoof"></div>
+                    </div>
+                </div>
+                <div class="robot-loader-mat"></div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
