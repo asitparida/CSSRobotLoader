@@ -17,13 +17,6 @@ html {
 
 @mixin color-defines-css($defcolor) {
 
-    .spinner {
-        .double-bounce1,
-        .double-bounce2 {
-            background-color: $defcolor;
-        }
-    }
-
     .header {
         background-color: $defcolor;
         -moz-transition: background-color 0.3s linear 0s;
@@ -101,6 +94,7 @@ html {
                     &-end {
                         &:after {
                             background: $defcolor;
+                            transition: background-color 0.3s linear 0s;
                         }
                     }
                 }
@@ -372,8 +366,8 @@ body {
         margin: 0 auto;
         height: 100%;
         width: 60vw;
-        max-width:250px;
-        max-height:650px;
+        max-width: 250px;
+        max-height: 650px;
 
         &-loader {
             display: block;
@@ -712,12 +706,12 @@ body {
                             position: absolute;
                             margin: 0;
                             vertical-align: middle;
-                            bottom: 15%;                            
+                            bottom: 15%;
 
                             &:nth-child(3) {
                                 width: 4vh;
                                 height: 4vh;
-                                bottom: 15%; 
+                                bottom: 15%;
                                 left: 50%;
                                 margin-left: -2vh;
                                 border-color: #25b678;

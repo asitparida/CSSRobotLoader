@@ -389,9 +389,6 @@ body {
   top: 0px; }
   body.turquoise {
     background-color: #1abc9c; }
-    body.turquoise .spinner .double-bounce1,
-    body.turquoise .spinner .double-bounce2 {
-      background-color: #1abc9c; }
     body.turquoise .header {
       background-color: #1abc9c;
       -moz-transition: background-color 0.3s linear 0s;
@@ -450,16 +447,14 @@ body {
     body.turquoise .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #1abc9c; }
     body.turquoise .robot-loader-body-arm-fore-end:after {
-      background: #1abc9c; }
+      background: #1abc9c;
+      transition: background-color 0.3s linear 0s; }
     body.turquoise .robot-loader-body-midriff-box-slider {
       background: #1abc9c; }
     body.turquoise .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #1abc9c; }
   body.emerland {
     background-color: #2ecc71; }
-    body.emerland .spinner .double-bounce1,
-    body.emerland .spinner .double-bounce2 {
-      background-color: #2ecc71; }
     body.emerland .header {
       background-color: #2ecc71;
       -moz-transition: background-color 0.3s linear 0s;
@@ -518,16 +513,14 @@ body {
     body.emerland .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #2ecc71; }
     body.emerland .robot-loader-body-arm-fore-end:after {
-      background: #2ecc71; }
+      background: #2ecc71;
+      transition: background-color 0.3s linear 0s; }
     body.emerland .robot-loader-body-midriff-box-slider {
       background: #2ecc71; }
     body.emerland .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #2ecc71; }
   body.peterRiver {
     background-color: #3498db; }
-    body.peterRiver .spinner .double-bounce1,
-    body.peterRiver .spinner .double-bounce2 {
-      background-color: #3498db; }
     body.peterRiver .header {
       background-color: #3498db;
       -moz-transition: background-color 0.3s linear 0s;
@@ -586,16 +579,14 @@ body {
     body.peterRiver .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #3498db; }
     body.peterRiver .robot-loader-body-arm-fore-end:after {
-      background: #3498db; }
+      background: #3498db;
+      transition: background-color 0.3s linear 0s; }
     body.peterRiver .robot-loader-body-midriff-box-slider {
       background: #3498db; }
     body.peterRiver .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #3498db; }
   body.amethyst {
     background-color: #9b59b6; }
-    body.amethyst .spinner .double-bounce1,
-    body.amethyst .spinner .double-bounce2 {
-      background-color: #9b59b6; }
     body.amethyst .header {
       background-color: #9b59b6;
       -moz-transition: background-color 0.3s linear 0s;
@@ -654,16 +645,14 @@ body {
     body.amethyst .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #9b59b6; }
     body.amethyst .robot-loader-body-arm-fore-end:after {
-      background: #9b59b6; }
+      background: #9b59b6;
+      transition: background-color 0.3s linear 0s; }
     body.amethyst .robot-loader-body-midriff-box-slider {
       background: #9b59b6; }
     body.amethyst .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #9b59b6; }
   body.moosikPurple {
     background-color: #d613b5; }
-    body.moosikPurple .spinner .double-bounce1,
-    body.moosikPurple .spinner .double-bounce2 {
-      background-color: #d613b5; }
     body.moosikPurple .header {
       background-color: #d613b5;
       -moz-transition: background-color 0.3s linear 0s;
@@ -722,16 +711,14 @@ body {
     body.moosikPurple .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #d613b5; }
     body.moosikPurple .robot-loader-body-arm-fore-end:after {
-      background: #d613b5; }
+      background: #d613b5;
+      transition: background-color 0.3s linear 0s; }
     body.moosikPurple .robot-loader-body-midriff-box-slider {
       background: #d613b5; }
     body.moosikPurple .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #d613b5; }
   body.wetAsphalt {
     background-color: #34495e; }
-    body.wetAsphalt .spinner .double-bounce1,
-    body.wetAsphalt .spinner .double-bounce2 {
-      background-color: #34495e; }
     body.wetAsphalt .header {
       background-color: #34495e;
       -moz-transition: background-color 0.3s linear 0s;
@@ -790,16 +777,14 @@ body {
     body.wetAsphalt .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #34495e; }
     body.wetAsphalt .robot-loader-body-arm-fore-end:after {
-      background: #34495e; }
+      background: #34495e;
+      transition: background-color 0.3s linear 0s; }
     body.wetAsphalt .robot-loader-body-midriff-box-slider {
       background: #34495e; }
     body.wetAsphalt .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #34495e; }
   body.greenSea {
     background-color: #16a085; }
-    body.greenSea .spinner .double-bounce1,
-    body.greenSea .spinner .double-bounce2 {
-      background-color: #16a085; }
     body.greenSea .header {
       background-color: #16a085;
       -moz-transition: background-color 0.3s linear 0s;
@@ -858,16 +843,14 @@ body {
     body.greenSea .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #16a085; }
     body.greenSea .robot-loader-body-arm-fore-end:after {
-      background: #16a085; }
+      background: #16a085;
+      transition: background-color 0.3s linear 0s; }
     body.greenSea .robot-loader-body-midriff-box-slider {
       background: #16a085; }
     body.greenSea .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #16a085; }
   body.nephritis {
     background-color: #27ae60; }
-    body.nephritis .spinner .double-bounce1,
-    body.nephritis .spinner .double-bounce2 {
-      background-color: #27ae60; }
     body.nephritis .header {
       background-color: #27ae60;
       -moz-transition: background-color 0.3s linear 0s;
@@ -926,16 +909,14 @@ body {
     body.nephritis .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #27ae60; }
     body.nephritis .robot-loader-body-arm-fore-end:after {
-      background: #27ae60; }
+      background: #27ae60;
+      transition: background-color 0.3s linear 0s; }
     body.nephritis .robot-loader-body-midriff-box-slider {
       background: #27ae60; }
     body.nephritis .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #27ae60; }
   body.belizeHole {
     background-color: #2980b9; }
-    body.belizeHole .spinner .double-bounce1,
-    body.belizeHole .spinner .double-bounce2 {
-      background-color: #2980b9; }
     body.belizeHole .header {
       background-color: #2980b9;
       -moz-transition: background-color 0.3s linear 0s;
@@ -994,16 +975,14 @@ body {
     body.belizeHole .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #2980b9; }
     body.belizeHole .robot-loader-body-arm-fore-end:after {
-      background: #2980b9; }
+      background: #2980b9;
+      transition: background-color 0.3s linear 0s; }
     body.belizeHole .robot-loader-body-midriff-box-slider {
       background: #2980b9; }
     body.belizeHole .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #2980b9; }
   body.wisteria {
     background-color: #8e44ad; }
-    body.wisteria .spinner .double-bounce1,
-    body.wisteria .spinner .double-bounce2 {
-      background-color: #8e44ad; }
     body.wisteria .header {
       background-color: #8e44ad;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1062,16 +1041,14 @@ body {
     body.wisteria .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #8e44ad; }
     body.wisteria .robot-loader-body-arm-fore-end:after {
-      background: #8e44ad; }
+      background: #8e44ad;
+      transition: background-color 0.3s linear 0s; }
     body.wisteria .robot-loader-body-midriff-box-slider {
       background: #8e44ad; }
     body.wisteria .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #8e44ad; }
   body.midnightBlue {
     background-color: #2c3e50; }
-    body.midnightBlue .spinner .double-bounce1,
-    body.midnightBlue .spinner .double-bounce2 {
-      background-color: #2c3e50; }
     body.midnightBlue .header {
       background-color: #2c3e50;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1130,16 +1107,14 @@ body {
     body.midnightBlue .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #2c3e50; }
     body.midnightBlue .robot-loader-body-arm-fore-end:after {
-      background: #2c3e50; }
+      background: #2c3e50;
+      transition: background-color 0.3s linear 0s; }
     body.midnightBlue .robot-loader-body-midriff-box-slider {
       background: #2c3e50; }
     body.midnightBlue .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #2c3e50; }
   body.sunDlower {
     background-color: #f1c40f; }
-    body.sunDlower .spinner .double-bounce1,
-    body.sunDlower .spinner .double-bounce2 {
-      background-color: #f1c40f; }
     body.sunDlower .header {
       background-color: #f1c40f;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1198,16 +1173,14 @@ body {
     body.sunDlower .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #f1c40f; }
     body.sunDlower .robot-loader-body-arm-fore-end:after {
-      background: #f1c40f; }
+      background: #f1c40f;
+      transition: background-color 0.3s linear 0s; }
     body.sunDlower .robot-loader-body-midriff-box-slider {
       background: #f1c40f; }
     body.sunDlower .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #f1c40f; }
   body.carrot {
     background-color: #e67e22; }
-    body.carrot .spinner .double-bounce1,
-    body.carrot .spinner .double-bounce2 {
-      background-color: #e67e22; }
     body.carrot .header {
       background-color: #e67e22;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1266,16 +1239,14 @@ body {
     body.carrot .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #e67e22; }
     body.carrot .robot-loader-body-arm-fore-end:after {
-      background: #e67e22; }
+      background: #e67e22;
+      transition: background-color 0.3s linear 0s; }
     body.carrot .robot-loader-body-midriff-box-slider {
       background: #e67e22; }
     body.carrot .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #e67e22; }
   body.alizarin {
     background-color: #e74c3c; }
-    body.alizarin .spinner .double-bounce1,
-    body.alizarin .spinner .double-bounce2 {
-      background-color: #e74c3c; }
     body.alizarin .header {
       background-color: #e74c3c;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1334,16 +1305,14 @@ body {
     body.alizarin .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #e74c3c; }
     body.alizarin .robot-loader-body-arm-fore-end:after {
-      background: #e74c3c; }
+      background: #e74c3c;
+      transition: background-color 0.3s linear 0s; }
     body.alizarin .robot-loader-body-midriff-box-slider {
       background: #e74c3c; }
     body.alizarin .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #e74c3c; }
   body.orange {
     background-color: #f39c12; }
-    body.orange .spinner .double-bounce1,
-    body.orange .spinner .double-bounce2 {
-      background-color: #f39c12; }
     body.orange .header {
       background-color: #f39c12;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1402,16 +1371,14 @@ body {
     body.orange .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #f39c12; }
     body.orange .robot-loader-body-arm-fore-end:after {
-      background: #f39c12; }
+      background: #f39c12;
+      transition: background-color 0.3s linear 0s; }
     body.orange .robot-loader-body-midriff-box-slider {
       background: #f39c12; }
     body.orange .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #f39c12; }
   body.pumpkin {
     background-color: #d35400; }
-    body.pumpkin .spinner .double-bounce1,
-    body.pumpkin .spinner .double-bounce2 {
-      background-color: #d35400; }
     body.pumpkin .header {
       background-color: #d35400;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1470,16 +1437,14 @@ body {
     body.pumpkin .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #d35400; }
     body.pumpkin .robot-loader-body-arm-fore-end:after {
-      background: #d35400; }
+      background: #d35400;
+      transition: background-color 0.3s linear 0s; }
     body.pumpkin .robot-loader-body-midriff-box-slider {
       background: #d35400; }
     body.pumpkin .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #d35400; }
   body.pomegranate {
     background-color: #c0392b; }
-    body.pomegranate .spinner .double-bounce1,
-    body.pomegranate .spinner .double-bounce2 {
-      background-color: #c0392b; }
     body.pomegranate .header {
       background-color: #c0392b;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1538,7 +1503,8 @@ body {
     body.pomegranate .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #c0392b; }
     body.pomegranate .robot-loader-body-arm-fore-end:after {
-      background: #c0392b; }
+      background: #c0392b;
+      transition: background-color 0.3s linear 0s; }
     body.pomegranate .robot-loader-body-midriff-box-slider {
       background: #c0392b; }
     body.pomegranate .robot-loader-body-midriff-box-circle:nth-child(3) {
