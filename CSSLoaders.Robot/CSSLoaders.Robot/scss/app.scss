@@ -855,12 +855,13 @@ body {
                                         transform: rotate(#{$i * $n}deg);
 
                                         &:before {
-                                            -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                                            animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+                                            -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out;
+                                            animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out;
                                         }
                                     }
                                 }
                             }
+                            
                         }
                     }
                 }
@@ -912,6 +913,59 @@ body {
                                         left: unquote(((11 - $i) * $n) + '%');
                                     }
                                 }
+                            }
+
+                            &-mouth {
+                                width: 30%;
+                                height: 50%;
+                                border: 5px solid #000;
+                                border-bottom-color: transparent;
+                                border-left-color: transparent;
+                                border-right-color: transparent;
+                                position: absolute;
+                                bottom: -25%;
+                                left: 0;
+                                margin-left: 35%;
+                                border-radius: 50%;
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &[state="success"] {
+
+            .robot-loader {
+                &-head {
+                    &-box {
+                        &-inner {
+                            &-eye {
+                                $n: 30;
+
+                                @for $i from 0 through 11 {
+                                    .robot-loader-head-box-inner-eye#{$i + 1} {
+                                        -webkit-transform: rotate(#{$i * $n}deg);
+                                        -ms-transform: rotate(#{$i * $n}deg);
+                                        transform: rotate(#{$i * $n}deg);
+                                    }
+                                }
+                            }
+
+                           &-mouth {
+                                width: 30%;
+                                height: 50%;
+                                border: 5px solid #000;
+                                border-top-color: transparent;
+                                border-left-color: transparent;
+                                border-right-color: transparent;
+                                position: absolute;
+                                bottom: 15%;
+                                left: 0;
+                                margin-left: 35%;
+                                border-radius: 50%;
+                                background-color: transparent;
                             }
                         }
                     }
