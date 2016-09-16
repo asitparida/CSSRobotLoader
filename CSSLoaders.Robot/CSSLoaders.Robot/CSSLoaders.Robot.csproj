@@ -71,6 +71,8 @@
     <Content Include="scss\_utils.scss" />
     <Content Include="scss\_vars.scss" />
     <Content Include="scss\app.scss" />
+    <None Include="Properties\PublishProfiles\css-loader-robot - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\css-loader-robot - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -103,7 +105,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>33719</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:33719/</IISUrl>
+          <IISUrl>http://localhost:33725/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

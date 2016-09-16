@@ -389,9 +389,6 @@ body {
   top: 0px; }
   body.turquoise {
     background-color: #1abc9c; }
-    body.turquoise .spinner .double-bounce1,
-    body.turquoise .spinner .double-bounce2 {
-      background-color: #1abc9c; }
     body.turquoise .header {
       background-color: #1abc9c;
       -moz-transition: background-color 0.3s linear 0s;
@@ -450,16 +447,14 @@ body {
     body.turquoise .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #1abc9c; }
     body.turquoise .robot-loader-body-arm-fore-end:after {
-      background: #1abc9c; }
+      background: #1abc9c;
+      transition: background-color 0.3s linear 0s; }
     body.turquoise .robot-loader-body-midriff-box-slider {
       background: #1abc9c; }
     body.turquoise .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #1abc9c; }
   body.emerland {
     background-color: #2ecc71; }
-    body.emerland .spinner .double-bounce1,
-    body.emerland .spinner .double-bounce2 {
-      background-color: #2ecc71; }
     body.emerland .header {
       background-color: #2ecc71;
       -moz-transition: background-color 0.3s linear 0s;
@@ -518,16 +513,14 @@ body {
     body.emerland .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #2ecc71; }
     body.emerland .robot-loader-body-arm-fore-end:after {
-      background: #2ecc71; }
+      background: #2ecc71;
+      transition: background-color 0.3s linear 0s; }
     body.emerland .robot-loader-body-midriff-box-slider {
       background: #2ecc71; }
     body.emerland .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #2ecc71; }
   body.peterRiver {
     background-color: #3498db; }
-    body.peterRiver .spinner .double-bounce1,
-    body.peterRiver .spinner .double-bounce2 {
-      background-color: #3498db; }
     body.peterRiver .header {
       background-color: #3498db;
       -moz-transition: background-color 0.3s linear 0s;
@@ -586,16 +579,14 @@ body {
     body.peterRiver .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #3498db; }
     body.peterRiver .robot-loader-body-arm-fore-end:after {
-      background: #3498db; }
+      background: #3498db;
+      transition: background-color 0.3s linear 0s; }
     body.peterRiver .robot-loader-body-midriff-box-slider {
       background: #3498db; }
     body.peterRiver .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #3498db; }
   body.amethyst {
     background-color: #9b59b6; }
-    body.amethyst .spinner .double-bounce1,
-    body.amethyst .spinner .double-bounce2 {
-      background-color: #9b59b6; }
     body.amethyst .header {
       background-color: #9b59b6;
       -moz-transition: background-color 0.3s linear 0s;
@@ -654,16 +645,14 @@ body {
     body.amethyst .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #9b59b6; }
     body.amethyst .robot-loader-body-arm-fore-end:after {
-      background: #9b59b6; }
+      background: #9b59b6;
+      transition: background-color 0.3s linear 0s; }
     body.amethyst .robot-loader-body-midriff-box-slider {
       background: #9b59b6; }
     body.amethyst .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #9b59b6; }
   body.moosikPurple {
     background-color: #d613b5; }
-    body.moosikPurple .spinner .double-bounce1,
-    body.moosikPurple .spinner .double-bounce2 {
-      background-color: #d613b5; }
     body.moosikPurple .header {
       background-color: #d613b5;
       -moz-transition: background-color 0.3s linear 0s;
@@ -722,16 +711,14 @@ body {
     body.moosikPurple .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #d613b5; }
     body.moosikPurple .robot-loader-body-arm-fore-end:after {
-      background: #d613b5; }
+      background: #d613b5;
+      transition: background-color 0.3s linear 0s; }
     body.moosikPurple .robot-loader-body-midriff-box-slider {
       background: #d613b5; }
     body.moosikPurple .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #d613b5; }
   body.wetAsphalt {
     background-color: #34495e; }
-    body.wetAsphalt .spinner .double-bounce1,
-    body.wetAsphalt .spinner .double-bounce2 {
-      background-color: #34495e; }
     body.wetAsphalt .header {
       background-color: #34495e;
       -moz-transition: background-color 0.3s linear 0s;
@@ -790,16 +777,14 @@ body {
     body.wetAsphalt .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #34495e; }
     body.wetAsphalt .robot-loader-body-arm-fore-end:after {
-      background: #34495e; }
+      background: #34495e;
+      transition: background-color 0.3s linear 0s; }
     body.wetAsphalt .robot-loader-body-midriff-box-slider {
       background: #34495e; }
     body.wetAsphalt .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #34495e; }
   body.greenSea {
     background-color: #16a085; }
-    body.greenSea .spinner .double-bounce1,
-    body.greenSea .spinner .double-bounce2 {
-      background-color: #16a085; }
     body.greenSea .header {
       background-color: #16a085;
       -moz-transition: background-color 0.3s linear 0s;
@@ -858,16 +843,14 @@ body {
     body.greenSea .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #16a085; }
     body.greenSea .robot-loader-body-arm-fore-end:after {
-      background: #16a085; }
+      background: #16a085;
+      transition: background-color 0.3s linear 0s; }
     body.greenSea .robot-loader-body-midriff-box-slider {
       background: #16a085; }
     body.greenSea .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #16a085; }
   body.nephritis {
     background-color: #27ae60; }
-    body.nephritis .spinner .double-bounce1,
-    body.nephritis .spinner .double-bounce2 {
-      background-color: #27ae60; }
     body.nephritis .header {
       background-color: #27ae60;
       -moz-transition: background-color 0.3s linear 0s;
@@ -926,16 +909,14 @@ body {
     body.nephritis .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #27ae60; }
     body.nephritis .robot-loader-body-arm-fore-end:after {
-      background: #27ae60; }
+      background: #27ae60;
+      transition: background-color 0.3s linear 0s; }
     body.nephritis .robot-loader-body-midriff-box-slider {
       background: #27ae60; }
     body.nephritis .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #27ae60; }
   body.belizeHole {
     background-color: #2980b9; }
-    body.belizeHole .spinner .double-bounce1,
-    body.belizeHole .spinner .double-bounce2 {
-      background-color: #2980b9; }
     body.belizeHole .header {
       background-color: #2980b9;
       -moz-transition: background-color 0.3s linear 0s;
@@ -994,16 +975,14 @@ body {
     body.belizeHole .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #2980b9; }
     body.belizeHole .robot-loader-body-arm-fore-end:after {
-      background: #2980b9; }
+      background: #2980b9;
+      transition: background-color 0.3s linear 0s; }
     body.belizeHole .robot-loader-body-midriff-box-slider {
       background: #2980b9; }
     body.belizeHole .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #2980b9; }
   body.wisteria {
     background-color: #8e44ad; }
-    body.wisteria .spinner .double-bounce1,
-    body.wisteria .spinner .double-bounce2 {
-      background-color: #8e44ad; }
     body.wisteria .header {
       background-color: #8e44ad;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1062,16 +1041,14 @@ body {
     body.wisteria .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #8e44ad; }
     body.wisteria .robot-loader-body-arm-fore-end:after {
-      background: #8e44ad; }
+      background: #8e44ad;
+      transition: background-color 0.3s linear 0s; }
     body.wisteria .robot-loader-body-midriff-box-slider {
       background: #8e44ad; }
     body.wisteria .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #8e44ad; }
   body.midnightBlue {
     background-color: #2c3e50; }
-    body.midnightBlue .spinner .double-bounce1,
-    body.midnightBlue .spinner .double-bounce2 {
-      background-color: #2c3e50; }
     body.midnightBlue .header {
       background-color: #2c3e50;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1130,16 +1107,14 @@ body {
     body.midnightBlue .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #2c3e50; }
     body.midnightBlue .robot-loader-body-arm-fore-end:after {
-      background: #2c3e50; }
+      background: #2c3e50;
+      transition: background-color 0.3s linear 0s; }
     body.midnightBlue .robot-loader-body-midriff-box-slider {
       background: #2c3e50; }
     body.midnightBlue .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #2c3e50; }
   body.sunDlower {
     background-color: #f1c40f; }
-    body.sunDlower .spinner .double-bounce1,
-    body.sunDlower .spinner .double-bounce2 {
-      background-color: #f1c40f; }
     body.sunDlower .header {
       background-color: #f1c40f;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1198,16 +1173,14 @@ body {
     body.sunDlower .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #f1c40f; }
     body.sunDlower .robot-loader-body-arm-fore-end:after {
-      background: #f1c40f; }
+      background: #f1c40f;
+      transition: background-color 0.3s linear 0s; }
     body.sunDlower .robot-loader-body-midriff-box-slider {
       background: #f1c40f; }
     body.sunDlower .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #f1c40f; }
   body.carrot {
     background-color: #e67e22; }
-    body.carrot .spinner .double-bounce1,
-    body.carrot .spinner .double-bounce2 {
-      background-color: #e67e22; }
     body.carrot .header {
       background-color: #e67e22;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1266,16 +1239,14 @@ body {
     body.carrot .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #e67e22; }
     body.carrot .robot-loader-body-arm-fore-end:after {
-      background: #e67e22; }
+      background: #e67e22;
+      transition: background-color 0.3s linear 0s; }
     body.carrot .robot-loader-body-midriff-box-slider {
       background: #e67e22; }
     body.carrot .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #e67e22; }
   body.alizarin {
     background-color: #e74c3c; }
-    body.alizarin .spinner .double-bounce1,
-    body.alizarin .spinner .double-bounce2 {
-      background-color: #e74c3c; }
     body.alizarin .header {
       background-color: #e74c3c;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1334,16 +1305,14 @@ body {
     body.alizarin .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #e74c3c; }
     body.alizarin .robot-loader-body-arm-fore-end:after {
-      background: #e74c3c; }
+      background: #e74c3c;
+      transition: background-color 0.3s linear 0s; }
     body.alizarin .robot-loader-body-midriff-box-slider {
       background: #e74c3c; }
     body.alizarin .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #e74c3c; }
   body.orange {
     background-color: #f39c12; }
-    body.orange .spinner .double-bounce1,
-    body.orange .spinner .double-bounce2 {
-      background-color: #f39c12; }
     body.orange .header {
       background-color: #f39c12;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1402,16 +1371,14 @@ body {
     body.orange .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #f39c12; }
     body.orange .robot-loader-body-arm-fore-end:after {
-      background: #f39c12; }
+      background: #f39c12;
+      transition: background-color 0.3s linear 0s; }
     body.orange .robot-loader-body-midriff-box-slider {
       background: #f39c12; }
     body.orange .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #f39c12; }
   body.pumpkin {
     background-color: #d35400; }
-    body.pumpkin .spinner .double-bounce1,
-    body.pumpkin .spinner .double-bounce2 {
-      background-color: #d35400; }
     body.pumpkin .header {
       background-color: #d35400;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1470,16 +1437,14 @@ body {
     body.pumpkin .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #d35400; }
     body.pumpkin .robot-loader-body-arm-fore-end:after {
-      background: #d35400; }
+      background: #d35400;
+      transition: background-color 0.3s linear 0s; }
     body.pumpkin .robot-loader-body-midriff-box-slider {
       background: #d35400; }
     body.pumpkin .robot-loader-body-midriff-box-circle:nth-child(3) {
       border-color: #d35400; }
   body.pomegranate {
     background-color: #c0392b; }
-    body.pomegranate .spinner .double-bounce1,
-    body.pomegranate .spinner .double-bounce2 {
-      background-color: #c0392b; }
     body.pomegranate .header {
       background-color: #c0392b;
       -moz-transition: background-color 0.3s linear 0s;
@@ -1538,7 +1503,8 @@ body {
     body.pomegranate .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
       background-color: #c0392b; }
     body.pomegranate .robot-loader-body-arm-fore-end:after {
-      background: #c0392b; }
+      background: #c0392b;
+      transition: background-color 0.3s linear 0s; }
     body.pomegranate .robot-loader-body-midriff-box-slider {
       background: #c0392b; }
     body.pomegranate .robot-loader-body-midriff-box-circle:nth-child(3) {
@@ -1763,6 +1729,31 @@ body {
             body .robot-loader-bulb-top-filament:nth-child(2) {
               width: 2vh;
               transform: rotate(-75deg); }
+          body .robot-loader-bulb-top-ticks {
+            position: relative;
+            top: 50%; }
+            body .robot-loader-bulb-top-ticks-tick {
+              height: 3px;
+              width: 30%;
+              position: absolute;
+              left: 150%;
+              background: #000;
+              transform-origin: -300%;
+              opacity: 0; }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(1) {
+                transform: rotate(180deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(2) {
+                transform: rotate(210deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(3) {
+                transform: rotate(240deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(4) {
+                transform: rotate(270deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(5) {
+                transform: rotate(300deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(6) {
+                transform: rotate(330deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(7) {
+                transform: rotate(360deg); }
         body .robot-loader-bulb-bottom {
           width: 2.5vh;
           height: 2.5vh;
@@ -1813,9 +1804,6 @@ body {
               body .robot-loader-head-box-inner-eye:nth-child(2) {
                 float: right; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye1 {
-                -webkit-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1828,13 +1816,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2 {
-                -webkit-transform: rotate(30deg);
-                -ms-transform: rotate(30deg);
-                transform: rotate(30deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1847,13 +1830,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3 {
-                -webkit-transform: rotate(60deg);
-                -ms-transform: rotate(60deg);
-                transform: rotate(60deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1866,13 +1844,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4 {
-                -webkit-transform: rotate(90deg);
-                -ms-transform: rotate(90deg);
-                transform: rotate(90deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1885,13 +1858,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5 {
-                -webkit-transform: rotate(120deg);
-                -ms-transform: rotate(120deg);
-                transform: rotate(120deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1904,13 +1872,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6 {
-                -webkit-transform: rotate(150deg);
-                -ms-transform: rotate(150deg);
-                transform: rotate(150deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1923,13 +1886,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
-                -webkit-transform: rotate(180deg);
-                -ms-transform: rotate(180deg);
-                transform: rotate(180deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1942,13 +1900,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8 {
-                -webkit-transform: rotate(210deg);
-                -ms-transform: rotate(210deg);
-                transform: rotate(210deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1961,13 +1914,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9 {
-                -webkit-transform: rotate(240deg);
-                -ms-transform: rotate(240deg);
-                transform: rotate(240deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1980,13 +1928,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10 {
-                -webkit-transform: rotate(270deg);
-                -ms-transform: rotate(270deg);
-                transform: rotate(270deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1999,13 +1942,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11 {
-                -webkit-transform: rotate(300deg);
-                -ms-transform: rotate(300deg);
-                transform: rotate(300deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -2018,13 +1956,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12 {
-                -webkit-transform: rotate(330deg);
-                -ms-transform: rotate(330deg);
-                transform: rotate(330deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -2037,9 +1970,7 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
             body .robot-loader-head-box-inner-mouth {
               width: 30%;
               height: 5%;
@@ -2170,16 +2101,6 @@ body {
             z-index: 1;
             position: relative;
             z-index: 3; }
-            body .robot-loader-body-midriff-box-slider {
-              width: 40%;
-              height: 3px;
-              background: #25b678;
-              bottom: 0px;
-              left: 50%;
-              position: absolute;
-              z-index: 4;
-              transform-origin: left;
-              animation: rotate-slider 6s linear infinite; }
             body .robot-loader-body-midriff-box-slider-rotator {
               width: 15px;
               height: 15px;
@@ -2276,6 +2197,165 @@ body {
         top: -12px;
         left: 5%;
         z-index: 1; }
+    body .robot[state="loading"] .robot-loader-bulb {
+      position: relative;
+      left: 5%;
+      width: 100%; }
+      body .robot[state="loading"] .robot-loader-bulb-top-ticks-tick {
+        animation: robot-bulb-tick-opacity 1.2s infinite ease-in-out; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye1 {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye1:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2 {
+      -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      transform: rotate(30deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3 {
+      -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      transform: rotate(60deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4 {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5 {
+      -webkit-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+      transform: rotate(120deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6 {
+      -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+      transform: rotate(150deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8 {
+      -webkit-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+      transform: rotate(210deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9 {
+      -webkit-transform: rotate(240deg);
+      -ms-transform: rotate(240deg);
+      transform: rotate(240deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10 {
+      -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11 {
+      -webkit-transform: rotate(300deg);
+      -ms-transform: rotate(300deg);
+      transform: rotate(300deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12 {
+      -webkit-transform: rotate(330deg);
+      -ms-transform: rotate(330deg);
+      transform: rotate(330deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-body-midriff-box-slider {
+      width: 40%;
+      height: 3px;
+      bottom: 0px;
+      left: 50%;
+      position: absolute;
+      z-index: 4;
+      transform-origin: 1px 1px;
+      animation: rotate-slider 6s linear infinite; }
+    body .robot[state="failure"] .robot-loader-head-box-inner-eye {
+      left: -10%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2 {
+        position: absolute;
+        top: 10%;
+        left: 10%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3 {
+        position: absolute;
+        top: 20%;
+        left: 20%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4 {
+        position: absolute;
+        top: 30%;
+        left: 30%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5 {
+        position: absolute;
+        top: 40%;
+        left: 40%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6 {
+        position: absolute;
+        top: 50%;
+        left: 50%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
+        position: absolute;
+        top: 60%;
+        left: 60%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
+        position: absolute;
+        top: 10%;
+        left: 50%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8 {
+        position: absolute;
+        top: 20%;
+        left: 40%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9 {
+        position: absolute;
+        top: 30%;
+        left: 30%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10 {
+        position: absolute;
+        top: 40%;
+        left: 20%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11 {
+        position: absolute;
+        top: 50%;
+        left: 10%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12 {
+        position: absolute;
+        top: 60%;
+        left: 0%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye13 {
+        position: absolute;
+        top: 70%;
+        left: -10%; }
+
+@keyframes robot-bulb-tick-opacity {
+  0%, 100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
 
 @keyframes rotate-slider {
   0%, 100% {
@@ -2284,17 +2364,17 @@ body {
     transform: rotate(0deg); } }
 
 @-webkit-keyframes robot-loader-head-box-inner-eye-circleBounceDelay {
-  0%, 80%, 100% {
+  0%, 100% {
     -webkit-transform: scale(0);
     transform: scale(0); }
-  40% {
+  50% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
 
 @keyframes robot-loader-head-box-inner-eye-circleBounceDelay {
-  0%, 80%, 100% {
+  0%, 100% {
     -webkit-transform: scale(0);
     transform: scale(0); }
-  40% {
+  50% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
