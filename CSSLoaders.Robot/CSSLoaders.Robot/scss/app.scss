@@ -260,6 +260,7 @@ body {
                     -webkit-transform: rotate(-150deg) scale(1,1);
                     transform: rotate(-150deg) scale(1,1);
                     outline: none;
+                    cursor: pointer;
 
                     &:active {
                         -moz-transform: scale(0.90, 0.90);

@@ -1613,7 +1613,8 @@ body {
           -o-transform: rotate(-150deg) scale(1, 1);
           -webkit-transform: rotate(-150deg) scale(1, 1);
           transform: rotate(-150deg) scale(1, 1);
-          outline: none; }
+          outline: none;
+          cursor: pointer; }
           body .color-switcher .accent-picker .settings-color-picker .color-plate:active {
             -moz-transform: scale(0.9, 0.9);
             -ms-transform: scale(0.9, 0.9);
