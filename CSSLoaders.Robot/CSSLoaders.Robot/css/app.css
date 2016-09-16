@@ -1729,6 +1729,31 @@ body {
             body .robot-loader-bulb-top-filament:nth-child(2) {
               width: 2vh;
               transform: rotate(-75deg); }
+          body .robot-loader-bulb-top-ticks {
+            position: relative;
+            top: 50%; }
+            body .robot-loader-bulb-top-ticks-tick {
+              height: 3px;
+              width: 30%;
+              position: absolute;
+              left: 150%;
+              background: #000;
+              transform-origin: -300%;
+              opacity: 0; }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(1) {
+                transform: rotate(180deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(2) {
+                transform: rotate(210deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(3) {
+                transform: rotate(240deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(4) {
+                transform: rotate(270deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(5) {
+                transform: rotate(300deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(6) {
+                transform: rotate(330deg); }
+              body .robot-loader-bulb-top-ticks-tick:nth-child(7) {
+                transform: rotate(360deg); }
         body .robot-loader-bulb-bottom {
           width: 2.5vh;
           height: 2.5vh;
@@ -1779,9 +1804,6 @@ body {
               body .robot-loader-head-box-inner-eye:nth-child(2) {
                 float: right; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye1 {
-                -webkit-transform: rotate(0deg);
-                -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1794,13 +1816,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2 {
-                -webkit-transform: rotate(30deg);
-                -ms-transform: rotate(30deg);
-                transform: rotate(30deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1813,13 +1830,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3 {
-                -webkit-transform: rotate(60deg);
-                -ms-transform: rotate(60deg);
-                transform: rotate(60deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1832,13 +1844,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4 {
-                -webkit-transform: rotate(90deg);
-                -ms-transform: rotate(90deg);
-                transform: rotate(90deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1851,13 +1858,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5 {
-                -webkit-transform: rotate(120deg);
-                -ms-transform: rotate(120deg);
-                transform: rotate(120deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1870,13 +1872,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6 {
-                -webkit-transform: rotate(150deg);
-                -ms-transform: rotate(150deg);
-                transform: rotate(150deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1889,13 +1886,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
-                -webkit-transform: rotate(180deg);
-                -ms-transform: rotate(180deg);
-                transform: rotate(180deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1908,13 +1900,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8 {
-                -webkit-transform: rotate(210deg);
-                -ms-transform: rotate(210deg);
-                transform: rotate(210deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1927,13 +1914,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9 {
-                -webkit-transform: rotate(240deg);
-                -ms-transform: rotate(240deg);
-                transform: rotate(240deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1946,13 +1928,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10 {
-                -webkit-transform: rotate(270deg);
-                -ms-transform: rotate(270deg);
-                transform: rotate(270deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1965,13 +1942,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11 {
-                -webkit-transform: rotate(300deg);
-                -ms-transform: rotate(300deg);
-                transform: rotate(300deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -1984,13 +1956,8 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
               body .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12 {
-                -webkit-transform: rotate(330deg);
-                -ms-transform: rotate(330deg);
-                transform: rotate(330deg);
                 width: 100%;
                 height: 100%;
                 position: absolute;
@@ -2003,9 +1970,7 @@ body {
                   width: 10%;
                   height: 10%;
                   background-color: #25b678;
-                  border-radius: 100%;
-                  -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
-                  animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+                  border-radius: 100%; }
             body .robot-loader-head-box-inner-mouth {
               width: 30%;
               height: 5%;
@@ -2136,16 +2101,6 @@ body {
             z-index: 1;
             position: relative;
             z-index: 3; }
-            body .robot-loader-body-midriff-box-slider {
-              width: 40%;
-              height: 3px;
-              background: #25b678;
-              bottom: 0px;
-              left: 50%;
-              position: absolute;
-              z-index: 4;
-              transform-origin: left;
-              animation: rotate-slider 6s linear infinite; }
             body .robot-loader-body-midriff-box-slider-rotator {
               width: 15px;
               height: 15px;
@@ -2242,6 +2197,165 @@ body {
         top: -12px;
         left: 5%;
         z-index: 1; }
+    body .robot[state="loading"] .robot-loader-bulb {
+      position: relative;
+      left: 5%;
+      width: 100%; }
+      body .robot[state="loading"] .robot-loader-bulb-top-ticks-tick {
+        animation: robot-bulb-tick-opacity 1.2s infinite ease-in-out; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye1 {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye1:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2 {
+      -webkit-transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      transform: rotate(30deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3 {
+      -webkit-transform: rotate(60deg);
+      -ms-transform: rotate(60deg);
+      transform: rotate(60deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4 {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5 {
+      -webkit-transform: rotate(120deg);
+      -ms-transform: rotate(120deg);
+      transform: rotate(120deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6 {
+      -webkit-transform: rotate(150deg);
+      -ms-transform: rotate(150deg);
+      transform: rotate(150deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8 {
+      -webkit-transform: rotate(210deg);
+      -ms-transform: rotate(210deg);
+      transform: rotate(210deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9 {
+      -webkit-transform: rotate(240deg);
+      -ms-transform: rotate(240deg);
+      transform: rotate(240deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10 {
+      -webkit-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+      transform: rotate(270deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11 {
+      -webkit-transform: rotate(300deg);
+      -ms-transform: rotate(300deg);
+      transform: rotate(300deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12 {
+      -webkit-transform: rotate(330deg);
+      -ms-transform: rotate(330deg);
+      transform: rotate(330deg); }
+      body .robot[state="loading"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12:before {
+        -webkit-animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both;
+        animation: robot-loader-head-box-inner-eye-circleBounceDelay 1.2s infinite ease-in-out both; }
+    body .robot[state="loading"] .robot-loader-body-midriff-box-slider {
+      width: 40%;
+      height: 3px;
+      bottom: 0px;
+      left: 50%;
+      position: absolute;
+      z-index: 4;
+      transform-origin: 1px 1px;
+      animation: rotate-slider 6s linear infinite; }
+    body .robot[state="failure"] .robot-loader-head-box-inner-eye {
+      left: -10%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye2 {
+        position: absolute;
+        top: 10%;
+        left: 10%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye3 {
+        position: absolute;
+        top: 20%;
+        left: 20%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye4 {
+        position: absolute;
+        top: 30%;
+        left: 30%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye5 {
+        position: absolute;
+        top: 40%;
+        left: 40%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye6 {
+        position: absolute;
+        top: 50%;
+        left: 50%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
+        position: absolute;
+        top: 60%;
+        left: 60%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye7 {
+        position: absolute;
+        top: 10%;
+        left: 50%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye8 {
+        position: absolute;
+        top: 20%;
+        left: 40%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye9 {
+        position: absolute;
+        top: 30%;
+        left: 30%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye10 {
+        position: absolute;
+        top: 40%;
+        left: 20%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye11 {
+        position: absolute;
+        top: 50%;
+        left: 10%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye12 {
+        position: absolute;
+        top: 60%;
+        left: 0%; }
+      body .robot[state="failure"] .robot-loader-head-box-inner-eye .robot-loader-head-box-inner-eye13 {
+        position: absolute;
+        top: 70%;
+        left: -10%; }
+
+@keyframes robot-bulb-tick-opacity {
+  0%, 100% {
+    opacity: 0; }
+  50% {
+    opacity: 1; } }
 
 @keyframes rotate-slider {
   0%, 100% {
@@ -2250,17 +2364,17 @@ body {
     transform: rotate(0deg); } }
 
 @-webkit-keyframes robot-loader-head-box-inner-eye-circleBounceDelay {
-  0%, 80%, 100% {
+  0%, 100% {
     -webkit-transform: scale(0);
     transform: scale(0); }
-  40% {
+  50% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
 
 @keyframes robot-loader-head-box-inner-eye-circleBounceDelay {
-  0%, 80%, 100% {
+  0%, 100% {
     -webkit-transform: scale(0);
     transform: scale(0); }
-  40% {
+  50% {
     -webkit-transform: scale(1);
     transform: scale(1); } }
