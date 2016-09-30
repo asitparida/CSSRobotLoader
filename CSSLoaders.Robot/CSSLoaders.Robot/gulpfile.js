@@ -3,10 +3,7 @@
     sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     cssmin = require('gulp-cssmin'),
-    del = require('del'),
-    html2js = require('gulp-html-js-template'),
-    minify = require('gulp-minify'),
-    plato = require('plato');
+    del = require('del');
 
 var errorHandler = function (error) {
     console.log(error);
